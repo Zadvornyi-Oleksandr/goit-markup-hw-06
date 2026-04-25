@@ -980,9 +980,12 @@ button {
   }
 
   .footer-logo-item,
-  .footer-social,
-  .footer-form-container {
+  .footer-social {
     width: calc((100% - 24px) / 2);
+  }
+
+  .footer-form-container {
+    width: 100%;
   }
 
   .footer-social .features-icon-list {
