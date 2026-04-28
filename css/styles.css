@@ -283,7 +283,7 @@ button {
   display: block;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1; /* FIXED */
+  line-height: 1.11; /* FIXED */
   letter-spacing: 0.02em;
   color: #2e2f42;
 
@@ -317,12 +317,12 @@ button {
 
 /* телефон */
 .menu-contacts-link[href^="tel:"] {
-  color: #404bbf;
+  color: #4d5ae5;
 }
 
 /* email */
 .menu-contacts-link[href^="mailto:"] {
-  color: #2e2f42;
+  color: #434455;
 }
 
 /* social */
