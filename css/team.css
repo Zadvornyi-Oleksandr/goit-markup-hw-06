@@ -101,12 +101,19 @@
 }
 
 /* team desktop */
+
 @media screen and (min-width: 1158px) {
   .taste-sect {
     padding: 120px 0;
   }
 
+  .container-sect-list {
+    column-gap: 24px;
+    row-gap: 0;
+  }
+
   .taste-sect-list {
-    width: calc((100% - 72px) / 4);
+    width: 264px;
+    max-width: 264px;
   }
 }
